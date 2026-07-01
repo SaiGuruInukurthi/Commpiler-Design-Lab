@@ -4,7 +4,7 @@ Implementations for the Compiler Design (CSEN3032) lab course, Semester 7. Each 
 
 ## Repository layout
 
-```
+```text
 Experiment_N/
   Exp_N_x.c          standalone program for sub-experiment x (a, b, c, ...)
   Exp_N_x.png        transition diagram / illustration
@@ -44,7 +44,7 @@ You can also run the binary directly and type a string, then press Enter.
 All four programs accept a string over `{a, b}` and report whether it is **accepted** or **rejected** by the DFA. Pipe the test string via stdin.
 
 | Sub | File | Language accepted | Accept state | Example accept | Example reject |
-|-----|------|------------------|--------------|----------------|----------------|
+| --- | --- | ------------------ | -------------- | ---------------- | ---------------- |
 | a | `Exp_1_a.c` | ends with `abb` | state 3 | `"abb"` | `"aba"` |
 | b | `Exp_1_b.c` | begins with `aa` | state 2 | `"aab"`, `"aabbb"` | `"bab"` |
 | c | `Exp_1_c.c` | begins with `a` AND ends with `b` | state 2 | `"ab"`, `"aab"` | `"ba"`, `"aa"` |
