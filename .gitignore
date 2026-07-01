@@ -1,0 +1,89 @@
+# ── Compiled objects & executables ───────────────────────
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.lib
+*.a
+*.exe
+*.out
+*.app
+
+# ── Build directories ────────────────────────────────────
+build/
+[Bb]in/
+[Oo]bj/
+out/
+cmake-build-*/
+
+# ── CMake / Make artifacts ───────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.make
+
+# ── Logs & crash dumps ───────────────────────────────────
+*.log
+*.tlog
+*.lastbuildstate
+core
+core.*
+*.dump
+
+# ── Python (build helpers / lab scripts) ─────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ── Node (tooling / doc generators) ───────────────────────
+node_modules/
+package-lock.json
+yarn.lock
+.npm/
+.pnpm-store/
+
+# ── Editor / IDE state ───────────────────────────────────
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+*.user
+*.suo
+*.aps
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# ── OS cruft ──────────────────────────────────────────────
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+AppKit/
+
+# ── opencode agent working dir ────────────────────────────
+.opencode/
+
+# ── Misc temp / backup files ─────────────────────────────
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.cache
